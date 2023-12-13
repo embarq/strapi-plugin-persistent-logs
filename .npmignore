@@ -3,3 +3,6 @@
 *ignore
 __tests__
 .github
+node_modules
+.editorconfig
+.prettierrc.yaml
