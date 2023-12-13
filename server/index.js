@@ -1,3 +1,5 @@
+// @ts-check
+
 'use strict';
 
 const register = require('./register');
@@ -14,9 +16,6 @@ module.exports = {
   destroy,
   config,
   controllers,
-  routes,
   services,
   contentTypes,
-  policies,
-  middlewares,
 };
