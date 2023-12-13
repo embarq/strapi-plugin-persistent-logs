@@ -9,6 +9,6 @@ module.exports = [
   {
     method: 'GET',
     path: '/logs',
-    handler: 'log.find',
+    handler: 'logs.find',
   }
 ]
