@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "logs",
+  "info": {
+    "singularName": "log",
+    "pluralName": "logs",
+    "displayName": "Logs"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "pluginOptions": {
+    "content-type-builder": {
+      "visible": false
+    }
+  },
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "level": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "error",
+        "warn",
+        "info",
+        "debug",
+        "log"
+      ]
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "data": {
+      "type": "json"
+    },
+    "error": {
+      "type": "json"
+    }
+  }
+}

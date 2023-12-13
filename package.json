@@ -1,0 +1,48 @@
+{
+  "name": "strapi-plugin-persistent-logs",
+  "version": "0.1.0",
+  "description": "Logging plugin for strapi",
+  "strapi": {
+    "name": "logs",
+    "description": "Logs plugin",
+    "kind": "plugin",
+    "displayName": "Logs"
+  },
+  "dependencies": {
+    "error-to-json": "^2.0.0",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@strapi/design-system": "^1.6.3",
+    "@strapi/helper-plugin": "^4.6.0",
+    "@strapi/icons": "^1.6.3",
+    "npm-install-peers": "^1.2.2",
+    "prop-types": "^15.7.2",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "react": "^18.2.0",
+    "styled-components": "^5.3.6"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.11.5",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6"
+  },
+  "author": {
+    "email": "embarq.dev@gmail.com",
+    "name": "embarq"
+  },
+  "maintainers": [
+    {
+      "email": "embarq.dev@gmail.com",
+      "name": "embarq"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
