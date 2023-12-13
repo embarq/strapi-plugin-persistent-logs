@@ -5,7 +5,7 @@
  */
 
 const getService = () => {
-  return strapi.service('plugin::logs.log');
+  return strapi.service('plugin::persistent-logs.log');
 };
 
 module.exports = {
