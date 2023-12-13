@@ -3,7 +3,7 @@
   "version": "0.1.14",
   "description": "Logging plugin for strapi",
   "strapi": {
-    "name": "strapi-plugin-persistent-logs",
+    "name": "persistent-logs",
     "description": "Logs plugin",
     "kind": "plugin",
     "displayName": "Logs"
