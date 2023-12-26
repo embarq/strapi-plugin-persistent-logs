@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-persistent-logs",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "Logging plugin for strapi",
   "strapi": {
     "name": "persistent-logs",
